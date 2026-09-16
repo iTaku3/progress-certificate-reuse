@@ -1,0 +1,312 @@
+{
+  "generator": "scripts/plot_results.py",
+  "generator_sha256": "c4cebb412e114f17e36a347eee781dfea7bb8abae4e25ea2688f8883a0e7c124",
+  "matplotlib_version": "3.10.9",
+  "sources": {
+    "experiments/workflow/historical/n2-record-measurement.json": {
+      "sha256": "583d2faa13d687331d82d61914375f9ff66c2a344c213a28bdb71a827f9ca2f6"
+    },
+    "experiments/workflow/historical/n3-record-measurement.json": {
+      "sha256": "287fee4a7fc447ca2fac2c90978fa9bfbc3c19959e5660527109cb9d2ddab653"
+    },
+    "experiments/workflow/historical/n4-record-measurement.json": {
+      "sha256": "a0c7c7e135dbec0d914c4b33fd46a6fb7cacbc13468f993beb53b3788a9a709e"
+    },
+    "experiments/workflow/historical/n5-record-measurement.json": {
+      "sha256": "1702152f1f2ce551b03d1cedcc5b9a25ee5d97a476c7b2bf39d39fb447d31e10"
+    },
+    "experiments/workflow/historical/n6-record-measurement.json": {
+      "sha256": "dea4feb538ade6dab22dcd1e771dba4d33777a7c4a6db0ddc20f86f7ba3c155d"
+    },
+    "experiments/workflow/README.md": {
+      "sha256": "3c948ae9c88860336030f69b1c5f41d818c19efc79b27c1bff71b3cffd0947ee",
+      "purpose": "Recording-date and measurement-scope context; numerical values come from JSON."
+    },
+    "experiments/async-interface-contracts/evidence/http-20260908/results.json": {
+      "sha256": "98523482c698818976b8dfb1ee03b68322fbe7db97253a5750c8f2a26c51b1db"
+    },
+    "experiments/async-interface-contracts/evidence/http-20260908/summary.json": {
+      "sha256": "65fb183f738ce8f1700d4d862ee46bdcb20a2b2d5bcbf4d7380665fe71c6d75b"
+    },
+    "results/record_policy_search_results.json": {
+      "sha256": "8cf6079d134677f476f6019d22eb4c35bf215ee62563232764da5713d9639c37"
+    }
+  },
+  "workflow": [
+    {
+      "jobs": 2,
+      "source": "experiments/workflow/historical/n2-record-measurement.json",
+      "recording_date": "2026-09-10",
+      "date_source": "experiments/workflow/README.md",
+      "full_rebuild_input_states": 17,
+      "reuse_rebuild_input_states": 5,
+      "full_record_path_product_visits": 32,
+      "reused_record_path_product_visits": 10,
+      "all_boundary_ports_checked": 6,
+      "boundary_product_visits": 10,
+      "timing": {
+        "full": {
+          "unit": "ms",
+          "samples": [
+            0.200375,
+            0.2245,
+            0.198542,
+            0.194167,
+            0.237458,
+            0.197,
+            0.232166
+          ],
+          "median": 0.200375,
+          "min": 0.194167,
+          "max": 0.237458
+        },
+        "reuse": {
+          "unit": "ms",
+          "samples": [
+            0.106958,
+            0.105709,
+            0.104834,
+            0.103917,
+            0.112584,
+            0.104375,
+            0.105667
+          ],
+          "median": 0.105667,
+          "min": 0.103917,
+          "max": 0.112584
+        }
+      }
+    },
+    {
+      "jobs": 3,
+      "source": "experiments/workflow/historical/n3-record-measurement.json",
+      "recording_date": "2026-09-10",
+      "date_source": "experiments/workflow/README.md",
+      "full_rebuild_input_states": 35,
+      "reuse_rebuild_input_states": 5,
+      "full_record_path_product_visits": 68,
+      "reused_record_path_product_visits": 10,
+      "all_boundary_ports_checked": 6,
+      "boundary_product_visits": 10,
+      "timing": {
+        "full": {
+          "unit": "ms",
+          "samples": [
+            0.467125,
+            0.466917,
+            0.479125,
+            0.492708,
+            0.4735,
+            0.513917,
+            0.46275
+          ],
+          "median": 0.4735,
+          "min": 0.46275,
+          "max": 0.513917
+        },
+        "reuse": {
+          "unit": "ms",
+          "samples": [
+            0.105625,
+            0.132,
+            0.104625,
+            0.103042,
+            0.114041,
+            0.110417,
+            0.134708
+          ],
+          "median": 0.110417,
+          "min": 0.103042,
+          "max": 0.134708
+        }
+      }
+    },
+    {
+      "jobs": 4,
+      "source": "experiments/workflow/historical/n4-record-measurement.json",
+      "recording_date": "2026-09-10",
+      "date_source": "experiments/workflow/README.md",
+      "full_rebuild_input_states": 89,
+      "reuse_rebuild_input_states": 5,
+      "full_record_path_product_visits": 176,
+      "reused_record_path_product_visits": 10,
+      "all_boundary_ports_checked": 6,
+      "boundary_product_visits": 10,
+      "timing": {
+        "full": {
+          "unit": "ms",
+          "samples": [
+            1.648584,
+            1.8205,
+            1.883625,
+            1.75125,
+            1.700916,
+            1.689834,
+            1.694875
+          ],
+          "median": 1.700916,
+          "min": 1.648584,
+          "max": 1.883625
+        },
+        "reuse": {
+          "unit": "ms",
+          "samples": [
+            0.112208,
+            0.108042,
+            0.12025,
+            0.114375,
+            0.11225,
+            0.108917,
+            0.11275
+          ],
+          "median": 0.11225,
+          "min": 0.108042,
+          "max": 0.12025
+        }
+      }
+    },
+    {
+      "jobs": 5,
+      "source": "experiments/workflow/historical/n5-record-measurement.json",
+      "recording_date": "2026-09-10",
+      "date_source": "experiments/workflow/README.md",
+      "full_rebuild_input_states": 251,
+      "reuse_rebuild_input_states": 5,
+      "full_record_path_product_visits": 500,
+      "reused_record_path_product_visits": 10,
+      "all_boundary_ports_checked": 6,
+      "boundary_product_visits": 10,
+      "timing": {
+        "full": {
+          "unit": "ms",
+          "samples": [
+            7.192666,
+            7.596792,
+            7.140708,
+            7.966208,
+            7.196708,
+            7.332791,
+            7.160292
+          ],
+          "median": 7.196708,
+          "min": 7.140708,
+          "max": 7.966208
+        },
+        "reuse": {
+          "unit": "ms",
+          "samples": [
+            0.139583,
+            0.135792,
+            0.1145,
+            0.112791,
+            0.111875,
+            0.106041,
+            0.114208
+          ],
+          "median": 0.114208,
+          "min": 0.106041,
+          "max": 0.139583
+        }
+      }
+    },
+    {
+      "jobs": 6,
+      "source": "experiments/workflow/historical/n6-record-measurement.json",
+      "recording_date": "2026-09-11",
+      "date_source": "experiments/workflow/README.md",
+      "full_rebuild_input_states": 737,
+      "reuse_rebuild_input_states": 5,
+      "full_record_path_product_visits": 1472,
+      "reused_record_path_product_visits": 10,
+      "all_boundary_ports_checked": 6,
+      "boundary_product_visits": 10,
+      "timing": {
+        "full": {
+          "unit": "ms",
+          "samples": [
+            37.418083,
+            37.4665,
+            39.824584,
+            37.208,
+            37.371,
+            37.399208,
+            39.3015
+          ],
+          "median": 37.418083,
+          "min": 37.208,
+          "max": 39.824584
+        },
+        "reuse": {
+          "unit": "ms",
+          "samples": [
+            0.12025,
+            0.111584,
+            0.115291,
+            0.109375,
+            0.124709,
+            0.111208,
+            0.118917
+          ],
+          "median": 0.115291,
+          "min": 0.109375,
+          "max": 0.124709
+        }
+      }
+    }
+  ],
+  "workflow_timing_definition": "Seven observed samples of total_ms = record_ms + boundary_and_check_ms for a known changed stage; median and min/max recomputed from samples, checked against stored summaries. Excludes input reading, model and old-record construction, offline reuse validation, migration checks, candidate search, and the full-graph oracle. Not confidence intervals.",
+  "http": [
+    {
+      "policy": "release_on_terminal",
+      "conditions": 36,
+      "complete_without_forbidden_overlap": 18,
+      "complete_with_forbidden_overlap": 18,
+      "stalled_without_forbidden_overlap": 0,
+      "conditions_with_retained_reservations": 0,
+      "complete_nonoverlapping_conditions_with_retained_reservations": 0
+    },
+    {
+      "policy": "release_on_2xx",
+      "conditions": 36,
+      "complete_without_forbidden_overlap": 18,
+      "complete_with_forbidden_overlap": 9,
+      "stalled_without_forbidden_overlap": 9,
+      "conditions_with_retained_reservations": 12,
+      "complete_nonoverlapping_conditions_with_retained_reservations": 3
+    },
+    {
+      "policy": "confirm_status",
+      "conditions": 36,
+      "complete_without_forbidden_overlap": 36,
+      "complete_with_forbidden_overlap": 0,
+      "stalled_without_forbidden_overlap": 0,
+      "conditions_with_retained_reservations": 0,
+      "complete_nonoverlapping_conditions_with_retained_reservations": 0
+    }
+  ],
+  "http_outcome_definitions": {
+    "complete_without_forbidden_overlap": "status == complete and unsafe == false; reservations may remain",
+    "complete_with_forbidden_overlap": "status == complete and unsafe == true",
+    "stalled_without_forbidden_overlap": "status == stalled and unsafe == false",
+    "conditions_with_retained_reservations": "count of conditions where heldAtEnd > 0, not count of held reservations"
+  },
+  "bounded_search": {
+    "source": "results/record_policy_search_results.json",
+    "games": 120,
+    "totals": {
+      "initial_local_candidates": 1440,
+      "first_compositions": 1920,
+      "distinct_intermediate_records": 508,
+      "record_compositions": 3952,
+      "distinct_final_records": 474,
+      "exhaustive_global_policies": 7680,
+      "independently_checked_representatives": 474,
+      "realizable_instances": 5,
+      "unrealizable_within_memoryless_class": 115,
+      "instances_with_intermediate_merging": 117
+    },
+    "derived_final_compositions": 2032,
+    "derived_final_compositions_formula": "record_compositions - first_compositions",
+    "interpretation": "Different object counts; not execution times or search-work ratios."
+  }
+}

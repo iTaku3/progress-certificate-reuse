@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .venv/
+.venv-figures/
 .DS_Store
 results/reproduction-*/
 outputs/

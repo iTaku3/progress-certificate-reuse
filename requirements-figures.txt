@@ -1,0 +1,2 @@
+# Optional; the experiment runners themselves do not need Matplotlib.
+matplotlib==3.10.9
