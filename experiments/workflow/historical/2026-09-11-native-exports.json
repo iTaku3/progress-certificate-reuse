@@ -1,0 +1,85 @@
+{
+  "started": "2026-09-11T02:57:35.092615+09:00",
+  "fixed_protocol_sha256": "f8c9857d7367b0cb017195314808e4f4bb59fc52f2d23b30865b1c206b65c265",
+  "source_sha256": "4c7e69a25385ad63a7458a3f5b5c70c241bb8edbb79041dde22be9e3e025247d",
+  "generator_sha256": "575d3bc36b4322ab0e61d77b5af8413d811482b6fb720d1ee1eab8742ed40a11",
+  "compiler_sha256": "f805413e8665c53bdc210a4092aea5bf7ca1055ee973cd1ce2535491cb04f3e5",
+  "heap_limit_GB": 8,
+  "timeout_seconds": 300,
+  "host": "MacBook Air 24GB; other desktop applications active; no exclusive timing claim",
+  "configurations": [
+    {
+      "first_stage_jobs": 6,
+      "source_sha256": "d50a4021ae4db445bcf9e0be6eaf1c7a58429f3e98be3a6078163b540ea272a8",
+      "exports": {
+        "old": {
+          "command": [
+            "java",
+            "-Xmx8g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n6/Workflow_derived.lts",
+            "OldEnvironmentAndController",
+            "n6/old.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 141.25381212501088,
+          "header": "des(0,2935,742)",
+          "sha256": "59f064f262a67a6f17282fcec0fc8a996d2b825fbc01f560608b9328416a373d"
+        },
+        "new": {
+          "command": [
+            "java",
+            "-Xmx8g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n6/Workflow_derived.lts",
+            "NewEnvironmentAndController",
+            "n6/new.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 140.30521145800594,
+          "header": "des(0,2927,738)",
+          "sha256": "6f8765b447390fdd6b238dc184088ebe0ceb9009729fe8f95290330950f85012"
+        }
+      }
+    },
+    {
+      "first_stage_jobs": 7,
+      "source_sha256": "ec607b3a77404ce25fdf9e0d8db4cc8c0f2ac7621039a0a9999318906894c273",
+      "exports": {
+        "old": {
+          "command": [
+            "java",
+            "-Xmx8g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n7/Workflow_derived.lts",
+            "OldEnvironmentAndController",
+            "n7/old.aut"
+          ],
+          "exit": "timeout300",
+          "wall_seconds": 300.02715337499103
+        },
+        "new": {
+          "command": [
+            "java",
+            "-Xmx8g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n7/Workflow_derived.lts",
+            "NewEnvironmentAndController",
+            "n7/new.aut"
+          ],
+          "exit": "timeout300",
+          "wall_seconds": 300.0234287080093
+        }
+      }
+    }
+  ],
+  "finished": "2026-09-11T03:12:17.447414+09:00"
+}

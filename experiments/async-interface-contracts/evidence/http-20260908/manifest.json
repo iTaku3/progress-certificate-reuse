@@ -1,0 +1,15 @@
+{
+  "startedAt": "2026-09-07T22:24:44.854Z",
+  "node": "v26.3.0",
+  "nodeRed": "5.0.6",
+  "httpNodeFile": "node_modules/@node-red/nodes/core/network/21-httprequest.js",
+  "sourceSha256": "daabebb8bd3d3e55a0ac17ffe230700694e5da7e35331477b87aec5af86525d5",
+  "inputSha256": "0c3871a77a11656d99aa4b1e7cb48946f787c57dbf568789c8b7475991c977c9",
+  "httpNodeSha256": "074f654014cfaa359a30e4a897c44764ad636c170350bc8222713562bdb89a3b",
+  "lockfileSha256": "a4d4a06a03e37bc5ccc3f15277f9ba45fc6448925a1d4f6384e1a3690a24e829",
+  "execution": "official Node-RED HTTP Request node, official test helper, in-memory synthetic server at loopback ephemeral port; no external service",
+  "finishedAt": "2026-09-07T22:25:25.007Z",
+  "sourceUnchanged": true,
+  "inputUnchanged": true,
+  "publication_note": "Only httpNodeFile was converted from a private absolute path to a path relative to src/node-red-lab. Source, input, lockfile and dependency hashes remain unchanged."
+}

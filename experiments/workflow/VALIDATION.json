@@ -1,0 +1,144 @@
+{
+  "publication_date": "2026-09-16",
+  "record_replay": {
+    "kind": "new record-checking run on supplied AUT exports",
+    "started_utc": "2026-09-16T02:47:46.721987+00:00",
+    "checks": [
+      {
+        "n": 2,
+        "new_episode_states": 17,
+        "all_non_timing_fields_match": true,
+        "input_sha256": {
+          "old": "308354fdfcc4ebc9c6b6ee77d5d9d55542fb7c01b6c03b2e729ec8d96009a9c8",
+          "new": "97f29cc352069db1b0f9e7733684c24ae47b615c8c24872efbb92e581269c3ee"
+        }
+      },
+      {
+        "n": 3,
+        "new_episode_states": 35,
+        "all_non_timing_fields_match": true,
+        "input_sha256": {
+          "old": "0160cb2f619868622c5d462fce235f25e8f840481f742d4db214ce5a35364d88",
+          "new": "e0cecbd70afc76bd6d69e490d522794fc5c2dd18756eb98030dd3312cf02a7ab"
+        }
+      },
+      {
+        "n": 4,
+        "new_episode_states": 89,
+        "all_non_timing_fields_match": true,
+        "input_sha256": {
+          "old": "1dc5d3ef27dbf51dfbbbb2fbcb0cf8e2fddd89738683f56821853e5b34d16996",
+          "new": "4c72d6c222ebd32740d6b54f6c833cf4d019375ebe70456e4976ca9cee10a5bc"
+        }
+      },
+      {
+        "n": 5,
+        "new_episode_states": 251,
+        "all_non_timing_fields_match": true,
+        "input_sha256": {
+          "old": "dd76f378b556a4f8a799c26f4798226c12573a16f043da966acbabf190e7e438",
+          "new": "d29c5fb7e4923e638c272c0ecfb99cd42d8a195889a5a041370098abf1a13ab4"
+        }
+      },
+      {
+        "n": 6,
+        "new_episode_states": 737,
+        "all_non_timing_fields_match": true,
+        "input_sha256": {
+          "old": "59f064f262a67a6f17282fcec0fc8a996d2b825fbc01f560608b9328416a373d",
+          "new": "6f8765b447390fdd6b238dc184088ebe0ceb9009729fe8f95290330950f85012"
+        }
+      }
+    ],
+    "scope": "Direct graph checking, full/local record equality and negative control; no claim of repeating MTSA generation.",
+    "finished_utc": "2026-09-16T02:47:47.338041+00:00"
+  },
+  "upstream_download_verified": true,
+  "derived_inputs": [
+    {
+      "n": 2,
+      "sha256": "acd10de9bbc20de23164cf2515943cd39b3e647a1387ba7dad5280fd185e795f",
+      "matches_historical_input": true
+    },
+    {
+      "n": 3,
+      "sha256": "fec109f1a80dea30c71b24a74160110d69dcbc4b18f40c3e8941348cadd7aa3a",
+      "matches_historical_input": true
+    },
+    {
+      "n": 4,
+      "sha256": "d91637ba2d87c815453fe95ea308f44cae15dbb8dc88d9d62b2e7b6add420a97",
+      "matches_historical_input": true
+    },
+    {
+      "n": 5,
+      "sha256": "692647686e2fbbd39f335cdcc2a183e89184c933fac8d20d465ce944fdc82cef",
+      "matches_historical_input": true
+    },
+    {
+      "n": 6,
+      "sha256": "d50a4021ae4db445bcf9e0be6eaf1c7a58429f3e98be3a6078163b540ea272a8",
+      "matches_historical_input": true
+    },
+    {
+      "n": 7,
+      "sha256": "ec607b3a77404ce25fdf9e0d8db4cc8c0f2ac7621039a0a9999318906894c273",
+      "matches_historical_input": true
+    }
+  ],
+  "limitations": [
+    "The five-configuration record replay reused historical AUT exports; only the two-job MTSA generation was freshly repeated.",
+    "Fresh record timing samples are separate temporary validation outputs, not replacements for the historical measurements."
+  ],
+  "fresh_small_mtsa_run": {
+    "kind": "new MTSA generation and record-checking run",
+    "started_utc": "2026-09-16T02:47:56.006303+00:00",
+    "source_sha256": "4c7e69a25385ad63a7458a3f5b5c70c241bb8edbb79041dde22be9e3e025247d",
+    "mtsa_jar_sha256": "f805413e8665c53bdc210a4092aea5bf7ca1055ee973cd1ce2535491cb04f3e5",
+    "heap": "2g",
+    "timeout_seconds": 90,
+    "configurations": [
+      {
+        "first_stage_jobs": 2,
+        "source_sha256": "acd10de9bbc20de23164cf2515943cd39b3e647a1387ba7dad5280fd185e795f",
+        "exports": {
+          "old": {
+            "exit": 0,
+            "wall_seconds": 0.23848716699285433,
+            "header": "des(0,31,22)",
+            "sha256": "308354fdfcc4ebc9c6b6ee77d5d9d55542fb7c01b6c03b2e729ec8d96009a9c8"
+          },
+          "new": {
+            "exit": 0,
+            "wall_seconds": 0.24156224998296238,
+            "header": "des(0,23,18)",
+            "sha256": "97f29cc352069db1b0f9e7733684c24ae47b615c8c24872efbb92e581269c3ee"
+          }
+        }
+      }
+    ],
+    "record_validation": {
+      "kind": "new record-checking run on supplied AUT exports",
+      "started_utc": "2026-09-16T02:47:56.745982+00:00",
+      "checks": [
+        {
+          "n": 2,
+          "new_episode_states": 17,
+          "all_non_timing_fields_match": true,
+          "input_sha256": {
+            "old": "308354fdfcc4ebc9c6b6ee77d5d9d55542fb7c01b6c03b2e729ec8d96009a9c8",
+            "new": "97f29cc352069db1b0f9e7733684c24ae47b615c8c24872efbb92e581269c3ee"
+          }
+        }
+      ],
+      "scope": "Direct graph checking, full/local record equality and negative control; no claim of repeating MTSA generation.",
+      "finished_utc": "2026-09-16T02:47:56.751670+00:00"
+    },
+    "finished_utc": "2026-09-16T02:47:56.751815+00:00"
+  },
+  "negative_checks": {
+    "altered_model_checksum_rejected": true,
+    "existing_result_directory_rejected": true
+  },
+  "historical_record_files_unchanged": true
+}

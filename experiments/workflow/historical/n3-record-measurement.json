@@ -1,0 +1,218 @@
+{
+  "n": 3,
+  "old_structure": {
+    "episode_states": 39,
+    "native_states": 40,
+    "states_by_group": {
+      "A": 28,
+      "B": 9,
+      "T": 2
+    },
+    "ports_by_group": {
+      "A": 2,
+      "B": 2,
+      "T": 2
+    },
+    "max_pending": 3,
+    "uncontrollable_cross_events": [
+      "approve",
+      "reject"
+    ],
+    "asynchronous_responses_stay_in_stage": true,
+    "all_cross_edges": [
+      [
+        "decision:7:7:1:0",
+        "approve",
+        "second:7:7:1:1"
+      ],
+      [
+        "decision:7:7:1:0",
+        "reject",
+        "done_reject:7:7:0:0"
+      ],
+      [
+        "second:31:31:1:1",
+        "archive",
+        "done_archive:31:31:0:1"
+      ]
+    ]
+  },
+  "new_structure": {
+    "episode_states": 35,
+    "native_states": 36,
+    "states_by_group": {
+      "A": 28,
+      "B": 5,
+      "T": 2
+    },
+    "ports_by_group": {
+      "A": 2,
+      "B": 2,
+      "T": 2
+    },
+    "max_pending": 3,
+    "uncontrollable_cross_events": [
+      "approve",
+      "reject"
+    ],
+    "asynchronous_responses_stay_in_stage": true,
+    "all_cross_edges": [
+      [
+        "decision:7:7:1:0",
+        "approve",
+        "second:7:7:1:1"
+      ],
+      [
+        "decision:7:7:1:0",
+        "reject",
+        "done_reject:7:7:0:0"
+      ],
+      [
+        "second:31:31:1:1",
+        "archive",
+        "done_archive:31:31:0:1"
+      ]
+    ]
+  },
+  "old_initial_record_ms": 0.599834,
+  "old_record_items": {
+    "path_items": 6,
+    "exit_sets": 4,
+    "json_bytes": 1793,
+    "path_product_visits": 76
+  },
+  "new_record_items": {
+    "path_items": 6,
+    "exit_sets": 4,
+    "json_bytes": 1793,
+    "path_product_visits": 68
+  },
+  "recreated_record_path_product_visits": 10,
+  "full_rebuild_input_states": 35,
+  "reuse_rebuild_input_states": 5,
+  "all_boundary_ports_checked": 6,
+  "boundary_product_visits": 10,
+  "three_guarantees": {
+    "safe": true,
+    "fair_completion": true,
+    "nonconflicting": true
+  },
+  "full_record_equality": true,
+  "negative_archive_connector": {
+    "safe": true,
+    "fair_completion": true,
+    "nonconflicting": false
+  },
+  "samples": {
+    "full": [
+      {
+        "record_ms": 0.397041,
+        "boundary_and_check_ms": 0.070084,
+        "total_ms": 0.467125
+      },
+      {
+        "record_ms": 0.397208,
+        "boundary_and_check_ms": 0.069709,
+        "total_ms": 0.466917
+      },
+      {
+        "record_ms": 0.409375,
+        "boundary_and_check_ms": 0.06975,
+        "total_ms": 0.479125
+      },
+      {
+        "record_ms": 0.4225,
+        "boundary_and_check_ms": 0.070208,
+        "total_ms": 0.492708
+      },
+      {
+        "record_ms": 0.402292,
+        "boundary_and_check_ms": 0.071208,
+        "total_ms": 0.4735
+      },
+      {
+        "record_ms": 0.439709,
+        "boundary_and_check_ms": 0.074208,
+        "total_ms": 0.513917
+      },
+      {
+        "record_ms": 0.388542,
+        "boundary_and_check_ms": 0.074208,
+        "total_ms": 0.46275
+      }
+    ],
+    "reuse": [
+      {
+        "record_ms": 0.036792,
+        "boundary_and_check_ms": 0.068833,
+        "total_ms": 0.105625
+      },
+      {
+        "record_ms": 0.059125,
+        "boundary_and_check_ms": 0.072875,
+        "total_ms": 0.132
+      },
+      {
+        "record_ms": 0.036333,
+        "boundary_and_check_ms": 0.068292,
+        "total_ms": 0.104625
+      },
+      {
+        "record_ms": 0.035792,
+        "boundary_and_check_ms": 0.06725,
+        "total_ms": 0.103042
+      },
+      {
+        "record_ms": 0.041791,
+        "boundary_and_check_ms": 0.07225,
+        "total_ms": 0.114041
+      },
+      {
+        "record_ms": 0.038084,
+        "boundary_and_check_ms": 0.072333,
+        "total_ms": 0.110417
+      },
+      {
+        "record_ms": 0.063875,
+        "boundary_and_check_ms": 0.070833,
+        "total_ms": 0.134708
+      }
+    ]
+  },
+  "timing_summary": {
+    "full": {
+      "record_ms": {
+        "median": 0.402292,
+        "min": 0.388542,
+        "max": 0.439709
+      },
+      "boundary_and_check_ms": {
+        "median": 0.070208,
+        "min": 0.069709,
+        "max": 0.074208
+      },
+      "total_ms": {
+        "median": 0.4735,
+        "min": 0.46275,
+        "max": 0.513917
+      }
+    },
+    "reuse": {
+      "record_ms": {
+        "median": 0.038084,
+        "min": 0.035792,
+        "max": 0.063875
+      },
+      "boundary_and_check_ms": {
+        "median": 0.070833,
+        "min": 0.06725,
+        "max": 0.072875
+      },
+      "total_ms": {
+        "median": 0.110417,
+        "min": 0.103042,
+        "max": 0.134708
+      }
+    }
+  }
+}

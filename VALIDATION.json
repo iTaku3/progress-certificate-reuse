@@ -1,0 +1,41 @@
+{
+  "prepared_at_utc": "2026-09-16T02:50:14.853410+00:00",
+  "repository": "https://github.com/iTaku3/progress-certificate-reuse",
+  "kind": "Checks for the initial combined publication; not additional independent research cases.",
+  "core": {
+    "python": "3.10.9",
+    "platform": "macOS-15.7.9-arm64-arm-64bit",
+    "composition_cases": 5000,
+    "record_equality_checks": 20000,
+    "start_state_checks": 20720,
+    "policy_search_games": 120,
+    "complete_policies": 7680,
+    "realizable_in_bounded_class": 5,
+    "unrealizable_in_bounded_class": 115,
+    "interpretation": "Finite implementation checks, not proof or an end-to-end speed comparison."
+  },
+  "core_algorithm_sources_and_archived_results_unchanged": true,
+  "workflow": {
+    "replayed_episode_state_counts": [
+      17,
+      35,
+      89,
+      251,
+      737
+    ],
+    "all_non_timing_fields_match": true,
+    "fresh_mtsa_compilation_jobs": [
+      2
+    ],
+    "details": "experiments/workflow/VALIDATION.json"
+  },
+  "http": {
+    "historical_conditions": 108,
+    "fresh_conditions": 108,
+    "historical_replay_mismatches": 0,
+    "fresh_replay_mismatches": 0,
+    "summary_matches_historical_run": true,
+    "details": "experiments/async-interface-contracts/VALIDATION.json"
+  },
+  "scope": "Local verification before publication. Remote GitHub Actions results are available on the repository Actions page."
+}

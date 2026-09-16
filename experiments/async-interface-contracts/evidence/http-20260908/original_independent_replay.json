@@ -1,0 +1,86 @@
+{
+  "conditions": 108,
+  "mismatches": 0,
+  "errors": [],
+  "hash_verification": {
+    "input": true,
+    "current_source": true,
+    "lockfile": true,
+    "http_node": true
+  },
+  "by_mode": {
+    "end_200|release_on_terminal": {
+      "conditions": 12,
+      "unsafe": 0,
+      "complete": 12,
+      "stalled": 0,
+      "error": 0,
+      "heldAtEndConditions": 0
+    },
+    "end_200|release_on_2xx": {
+      "conditions": 12,
+      "unsafe": 0,
+      "complete": 12,
+      "stalled": 0,
+      "error": 0,
+      "heldAtEndConditions": 0
+    },
+    "end_200|confirm_status": {
+      "conditions": 12,
+      "unsafe": 0,
+      "complete": 12,
+      "stalled": 0,
+      "error": 0,
+      "heldAtEndConditions": 0
+    },
+    "accept_202|release_on_terminal": {
+      "conditions": 12,
+      "unsafe": 9,
+      "complete": 12,
+      "stalled": 0,
+      "error": 0,
+      "heldAtEndConditions": 0
+    },
+    "accept_202|release_on_2xx": {
+      "conditions": 12,
+      "unsafe": 9,
+      "complete": 12,
+      "stalled": 0,
+      "error": 0,
+      "heldAtEndConditions": 0
+    },
+    "accept_202|confirm_status": {
+      "conditions": 12,
+      "unsafe": 0,
+      "complete": 12,
+      "stalled": 0,
+      "error": 0,
+      "heldAtEndConditions": 0
+    },
+    "client_timeout|release_on_terminal": {
+      "conditions": 12,
+      "unsafe": 9,
+      "complete": 12,
+      "stalled": 0,
+      "error": 0,
+      "heldAtEndConditions": 0
+    },
+    "client_timeout|release_on_2xx": {
+      "conditions": 12,
+      "unsafe": 0,
+      "complete": 3,
+      "stalled": 9,
+      "error": 0,
+      "heldAtEndConditions": 12
+    },
+    "client_timeout|confirm_status": {
+      "conditions": 12,
+      "unsafe": 0,
+      "complete": 12,
+      "stalled": 0,
+      "error": 0,
+      "heldAtEndConditions": 0
+    }
+  },
+  "replay_source_sha256": "c8ced3b6e444404cc2c0ebc9c84517c935a34cd7aa59396fd9beb3a4d4799f4e"
+}

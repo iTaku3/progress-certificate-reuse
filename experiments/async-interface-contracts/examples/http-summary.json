@@ -1,0 +1,30 @@
+{
+  "inputs": 36,
+  "conditions": 108,
+  "policies": {
+    "release_on_terminal": {
+      "complete": 36,
+      "stalled": 0,
+      "errors": 0,
+      "retainedReservations": 0,
+      "unsafe": 18,
+      "maxObservedConcurrency": 4
+    },
+    "release_on_2xx": {
+      "complete": 27,
+      "stalled": 9,
+      "errors": 0,
+      "retainedReservations": 12,
+      "unsafe": 9,
+      "maxObservedConcurrency": 4
+    },
+    "confirm_status": {
+      "complete": 36,
+      "stalled": 0,
+      "errors": 0,
+      "retainedReservations": 0,
+      "unsafe": 0,
+      "maxObservedConcurrency": 3
+    }
+  }
+}

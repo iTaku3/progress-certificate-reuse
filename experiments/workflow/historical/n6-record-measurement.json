@@ -1,0 +1,218 @@
+{
+  "n": 6,
+  "old_structure": {
+    "episode_states": 741,
+    "native_states": 742,
+    "states_by_group": {
+      "A": 730,
+      "B": 9,
+      "T": 2
+    },
+    "ports_by_group": {
+      "A": 2,
+      "B": 2,
+      "T": 2
+    },
+    "max_pending": 6,
+    "uncontrollable_cross_events": [
+      "approve",
+      "reject"
+    ],
+    "asynchronous_responses_stay_in_stage": true,
+    "all_cross_edges": [
+      [
+        "decision:63:63:1:0",
+        "approve",
+        "second:63:63:1:1"
+      ],
+      [
+        "decision:63:63:1:0",
+        "reject",
+        "done_reject:63:63:0:0"
+      ],
+      [
+        "second:255:255:1:1",
+        "archive",
+        "done_archive:255:255:0:1"
+      ]
+    ]
+  },
+  "new_structure": {
+    "episode_states": 737,
+    "native_states": 738,
+    "states_by_group": {
+      "A": 730,
+      "B": 5,
+      "T": 2
+    },
+    "ports_by_group": {
+      "A": 2,
+      "B": 2,
+      "T": 2
+    },
+    "max_pending": 6,
+    "uncontrollable_cross_events": [
+      "approve",
+      "reject"
+    ],
+    "asynchronous_responses_stay_in_stage": true,
+    "all_cross_edges": [
+      [
+        "decision:63:63:1:0",
+        "approve",
+        "second:63:63:1:1"
+      ],
+      [
+        "decision:63:63:1:0",
+        "reject",
+        "done_reject:63:63:0:0"
+      ],
+      [
+        "second:255:255:1:1",
+        "archive",
+        "done_archive:255:255:0:1"
+      ]
+    ]
+  },
+  "old_initial_record_ms": 37.580917,
+  "old_record_items": {
+    "path_items": 6,
+    "exit_sets": 4,
+    "json_bytes": 1885,
+    "path_product_visits": 1480
+  },
+  "new_record_items": {
+    "path_items": 6,
+    "exit_sets": 4,
+    "json_bytes": 1885,
+    "path_product_visits": 1472
+  },
+  "recreated_record_path_product_visits": 10,
+  "full_rebuild_input_states": 737,
+  "reuse_rebuild_input_states": 5,
+  "all_boundary_ports_checked": 6,
+  "boundary_product_visits": 10,
+  "three_guarantees": {
+    "safe": true,
+    "fair_completion": true,
+    "nonconflicting": true
+  },
+  "full_record_equality": true,
+  "negative_archive_connector": {
+    "safe": true,
+    "fair_completion": true,
+    "nonconflicting": false
+  },
+  "samples": {
+    "full": [
+      {
+        "record_ms": 37.326083,
+        "boundary_and_check_ms": 0.092,
+        "total_ms": 37.418083
+      },
+      {
+        "record_ms": 37.3715,
+        "boundary_and_check_ms": 0.095,
+        "total_ms": 37.4665
+      },
+      {
+        "record_ms": 39.736042,
+        "boundary_and_check_ms": 0.088542,
+        "total_ms": 39.824584
+      },
+      {
+        "record_ms": 37.119583,
+        "boundary_and_check_ms": 0.088417,
+        "total_ms": 37.208
+      },
+      {
+        "record_ms": 37.280166,
+        "boundary_and_check_ms": 0.090834,
+        "total_ms": 37.371
+      },
+      {
+        "record_ms": 37.309958,
+        "boundary_and_check_ms": 0.08925,
+        "total_ms": 37.399208
+      },
+      {
+        "record_ms": 39.210875,
+        "boundary_and_check_ms": 0.090625,
+        "total_ms": 39.3015
+      }
+    ],
+    "reuse": [
+      {
+        "record_ms": 0.040708,
+        "boundary_and_check_ms": 0.079542,
+        "total_ms": 0.12025
+      },
+      {
+        "record_ms": 0.03725,
+        "boundary_and_check_ms": 0.074334,
+        "total_ms": 0.111584
+      },
+      {
+        "record_ms": 0.038875,
+        "boundary_and_check_ms": 0.076416,
+        "total_ms": 0.115291
+      },
+      {
+        "record_ms": 0.036917,
+        "boundary_and_check_ms": 0.072458,
+        "total_ms": 0.109375
+      },
+      {
+        "record_ms": 0.041584,
+        "boundary_and_check_ms": 0.083125,
+        "total_ms": 0.124709
+      },
+      {
+        "record_ms": 0.037291,
+        "boundary_and_check_ms": 0.073917,
+        "total_ms": 0.111208
+      },
+      {
+        "record_ms": 0.039917,
+        "boundary_and_check_ms": 0.079,
+        "total_ms": 0.118917
+      }
+    ]
+  },
+  "timing_summary": {
+    "full": {
+      "record_ms": {
+        "median": 37.326083,
+        "min": 37.119583,
+        "max": 39.736042
+      },
+      "boundary_and_check_ms": {
+        "median": 0.090625,
+        "min": 0.088417,
+        "max": 0.095
+      },
+      "total_ms": {
+        "median": 37.418083,
+        "min": 37.208,
+        "max": 39.824584
+      }
+    },
+    "reuse": {
+      "record_ms": {
+        "median": 0.038875,
+        "min": 0.036917,
+        "max": 0.041584
+      },
+      "boundary_and_check_ms": {
+        "median": 0.076416,
+        "min": 0.072458,
+        "max": 0.083125
+      },
+      "total_ms": {
+        "median": 0.115291,
+        "min": 0.109375,
+        "max": 0.124709
+      }
+    }
+  }
+}

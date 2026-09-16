@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-15.7.9-arm64-arm-64bit",
+  "composition_cases": 5000,
+  "record_equality_checks": 20000,
+  "start_state_checks": 20720,
+  "policy_search_games": 120,
+  "complete_policies": 7680,
+  "realizable_in_bounded_class": 5,
+  "unrealizable_in_bounded_class": 115,
+  "source_sha256": {
+    "examples/exit_sets.py": "ee4fb356551e2f735132e1d67dbbbc25dea325f1d14fc8f4179c8e5707d9c859",
+    "examples/transfer.py": "968cabeabb0c863620ba15461060e12de4ac22e86788dae37295a2f015b5bb13",
+    "experiments/validate_composition.py": "08f8b99381d55b6c304de2b0421006a0939d51ef1502ca5baacfa998ada7223b",
+    "experiments/validate_policy_search.py": "7199da7d5f601368395373d0a4ea6be430fb78f34ae5534f1be20f3683b03c89",
+    "reproduce.py": "79899572a104b2b0ea0f8193831457b4e8fdb6d6177651a83de4179f8f1d03ec",
+    "src/progress_reuse/__init__.py": "b3f364a4b4b76e6be530c7df607c21b688b3f8f1ca6de292d5f11e7225c4f2c3",
+    "src/progress_reuse/composition.py": "8538603c285b34df85d16fb430dbf821a629e5c1f51444675a8355edca36fc46",
+    "src/progress_reuse/graph.py": "0cc603c2350c1eff193f3694d55ac8aa1fe08ac3ef670a80cb1ab6e2cfc61cb7"
+  },
+  "interpretation": "Finite implementation checks, not proof or an end-to-end speed comparison."
+}

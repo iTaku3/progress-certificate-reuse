@@ -1,0 +1,88 @@
+{
+  "states": {
+    "old_accepted": {
+      "queue": 1,
+      "owed": 1,
+      "updated": 0
+    },
+    "new_waiting": {
+      "queue": 1,
+      "owed": 1,
+      "updated": 1
+    },
+    "new_idle_lost": {
+      "queue": 0,
+      "owed": 1,
+      "updated": 1
+    },
+    "executed": {
+      "queue": 0,
+      "owed": 0,
+      "updated": 1
+    }
+  },
+  "justice_labels": {
+    "old_accepted": 0,
+    "new_waiting": 0,
+    "new_idle_lost": 1,
+    "executed": 1
+  },
+  "cases": {
+    "keep_request": {
+      "graph": {
+        "old_accepted": [
+          "new_waiting"
+        ],
+        "new_waiting": [
+          "executed",
+          "new_waiting"
+        ],
+        "new_idle_lost": [
+          "new_idle_lost"
+        ],
+        "executed": [
+          "executed"
+        ]
+      },
+      "request_completion": {
+        "safe": true,
+        "fair_completion": true,
+        "nonconflicting": true
+      },
+      "switch_completion_only": {
+        "safe": true,
+        "fair_completion": true,
+        "nonconflicting": true
+      }
+    },
+    "lose_queue_entry": {
+      "graph": {
+        "old_accepted": [
+          "new_idle_lost"
+        ],
+        "new_waiting": [
+          "executed",
+          "new_waiting"
+        ],
+        "new_idle_lost": [
+          "new_idle_lost"
+        ],
+        "executed": [
+          "executed"
+        ]
+      },
+      "request_completion": {
+        "safe": true,
+        "fair_completion": false,
+        "nonconflicting": true
+      },
+      "switch_completion_only": {
+        "safe": true,
+        "fair_completion": true,
+        "nonconflicting": true
+      }
+    }
+  },
+  "scope": "Four-state explanatory fixed-policy graph with one justice condition. No incident reconstruction, financial implementation, policy synthesis, or timing guarantee.",
+  "script_sha256": "968cabeabb0c863620ba15461060e12de4ac22e86788dae37295a2f015b5bb13"
+}

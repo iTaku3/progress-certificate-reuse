@@ -1,0 +1,45 @@
+{
+  "finished_utc": "2026-09-16T02:45:28.607469+00:00",
+  "python": "3.10.9",
+  "platform": "macOS-15.7.9-arm64-arm-64bit",
+  "source_sha256": "266b8f1f7bd663e80f6d39bba51265488d1cc399cae837ff7dfafd9159267b86",
+  "inputs_sha256": "3d32eee34e4a877d092e287dbe7c8424e511e3aaefca125f5633e0171b436511",
+  "cases": 89,
+  "distinct_labelled_inputs": 80,
+  "scope": "synthetic finite job models; not Node-RED or CNT validation",
+  "policy_summary": {
+    "active_only": {
+      "cases": 89,
+      "unsafe_cases": 83,
+      "deadlock_cases": 0,
+      "all_done_cases": 89
+    },
+    "release_on_start": {
+      "cases": 89,
+      "unsafe_cases": 83,
+      "deadlock_cases": 0,
+      "all_done_cases": 89
+    },
+    "reserve_until_finish": {
+      "cases": 89,
+      "unsafe_cases": 0,
+      "deadlock_cases": 0,
+      "all_done_cases": 89
+    },
+    "global_serial": {
+      "cases": 89,
+      "unsafe_cases": 0,
+      "deadlock_cases": 0,
+      "all_done_cases": 89
+    },
+    "full_game": {
+      "cases": 89,
+      "unsafe_cases": 0,
+      "deadlock_cases": 0,
+      "all_done_cases": 89
+    }
+  },
+  "cases_parallelism_above_serial": 79,
+  "all_winning_states_admission_disagreements": 0,
+  "novelty_claim": "none: reservation is a known baseline; this is a preparation experiment"
+}

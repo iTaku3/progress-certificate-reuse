@@ -1,0 +1,14 @@
+{
+  "startedAt": "2026-09-16T02:45:37.988Z",
+  "node": "v26.3.0",
+  "nodeRed": "5.0.6",
+  "httpNodeFile": "node_modules/@node-red/nodes/core/network/21-httprequest.js",
+  "sourceSha256": "d2414542f017be190136ba690b14b63d96b10a218c9b64bb03600995fcde471e",
+  "inputSha256": "0c3871a77a11656d99aa4b1e7cb48946f787c57dbf568789c8b7475991c977c9",
+  "httpNodeSha256": "074f654014cfaa359a30e4a897c44764ad636c170350bc8222713562bdb89a3b",
+  "lockfileSha256": "a4d4a06a03e37bc5ccc3f15277f9ba45fc6448925a1d4f6384e1a3690a24e829",
+  "execution": "official Node-RED HTTP Request node, official test helper, in-memory synthetic server at loopback ephemeral port; no external service",
+  "finishedAt": "2026-09-16T02:46:18.220Z",
+  "sourceUnchanged": true,
+  "inputUnchanged": true
+}

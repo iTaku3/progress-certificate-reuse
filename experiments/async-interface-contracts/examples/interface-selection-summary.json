@@ -1,0 +1,11 @@
+{
+  "inputs": 60,
+  "distinct_inputs": 60,
+  "conditions": 8180,
+  "mismatches": 0,
+  "invalid_policies": 0,
+  "feasible_conditions": 3027,
+  "visited_states": 8483978,
+  "policy_verified_states": 164932,
+  "total_solver_seconds": 19.830936289043166
+}

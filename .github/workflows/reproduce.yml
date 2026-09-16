@@ -1,0 +1,66 @@
+name: Reproduce preliminary checks
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python reproduce.py
+
+  http:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: experiments/async-interface-contracts/src/node-red-lab
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: experiments/async-interface-contracts/src/node-red-lab/package-lock.json
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Replay all 108 archived HTTP conditions
+        run: python replay_http.py ../../evidence/http-20260908 --source ../../evidence/http-20260908/http_experiment.cjs
+      - name: Reproduce finite-state and observation-selection comparisons
+        run: |
+          mkdir -p ../../outputs
+          python ../finite-state/experiment.py --output ../../outputs/finite-state
+          python ../interface-selection/experiment.py --output ../../outputs/interface-selection
+      - name: Execute and replay the standard HTTP node
+        run: |
+          node http_experiment.cjs --output ../../outputs/http
+          python replay_http.py ../../outputs/http
+      - name: Check fixed experimental totals and HTTP outcomes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('../..')
+          read = lambda path: json.loads((root / path).read_text())
+          finite = read('outputs/finite-state/summary.json')
+          assert finite['cases'] == 89
+          assert finite['distinct_labelled_inputs'] == 80
+          assert finite['all_winning_states_admission_disagreements'] == 0
+          selection = read('outputs/interface-selection/summary.json')
+          assert selection['conditions'] == 8180
+          assert selection['mismatches'] == selection['invalid_policies'] == 0
+          assert len(read('outputs/http/results.json')) == 108
+          assert read('outputs/http/summary.json') == read('evidence/http-20260908/summary.json')
+          PY

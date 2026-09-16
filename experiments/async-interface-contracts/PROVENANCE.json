@@ -1,0 +1,54 @@
+{
+  "prepared_on": "2026-09-08",
+  "publication_prepared_on": "2026-09-16",
+  "origin": "Author research prototype async-interface-contracts and recorded HTTP run N1_run06",
+  "source_files": {
+    "src/finite-state/experiment.py": {
+      "prepared_sha256": "266b8f1f7bd663e80f6d39bba51265488d1cc399cae837ff7dfafd9159267b86",
+      "published_sha256": "266b8f1f7bd663e80f6d39bba51265488d1cc399cae837ff7dfafd9159267b86",
+      "unchanged_from_preparation": true
+    },
+    "src/interface-selection/experiment.py": {
+      "prepared_sha256": "c313dbefb2f38f359228ad3ddaf555ac2bc6dd0c7e5c66e6a88a07eaf7d60225",
+      "published_sha256": "4401b9fcd99f7f79dcd7676cc9466a3c168bf3d8c31ebbe496ab1227b7dee406",
+      "unchanged_from_preparation": false,
+      "change": "Changed only the default output directory from a research-local name to outputs/interface-selection; algorithm and explicit --output behavior unchanged."
+    },
+    "src/node-red-lab/http_experiment.cjs": {
+      "prepared_sha256": "9dafa1302fe4844407558d3b9aac8d9874f4266f1d82dd72bc65448673b4196f",
+      "published_sha256": "d2414542f017be190136ba690b14b63d96b10a218c9b64bb03600995fcde471e",
+      "unchanged_from_preparation": false,
+      "change": "Changed only default output directory to outputs/http and manifest HTTP-node location to a path relative to the lab directory; inputs and experiment algorithms unchanged."
+    },
+    "src/node-red-lab/package-lock.json": {
+      "prepared_sha256": "a4d4a06a03e37bc5ccc3f15277f9ba45fc6448925a1d4f6384e1a3690a24e829",
+      "published_sha256": "a4d4a06a03e37bc5ccc3f15277f9ba45fc6448925a1d4f6384e1a3690a24e829",
+      "unchanged_from_preparation": true
+    },
+    "src/node-red-lab/package.json": {
+      "prepared_sha256": "97d40a4674bec196b219acc0a2924e98516d9f382952812d3a0658234d8a0105",
+      "published_sha256": "882f2c37514194b8195ad3d53da968ab1887a2d309be42bddc08127928c9d520",
+      "unchanged_from_preparation": false,
+      "change": "Updated publication description and corrected npm experiment entry point from missing experiment.cjs to http_experiment.cjs. Dependency versions and lockfile unchanged."
+    },
+    "src/node-red-lab/replay_http.py": {
+      "prepared_sha256": "c8ced3b6e444404cc2c0ebc9c84517c935a34cd7aa59396fd9beb3a4d4799f4e",
+      "published_sha256": "71bc724923170573aaf7c24490a16d00c020b6501ffc246d493cc86a8e33f06a",
+      "unchanged_from_preparation": false,
+      "change": "Added --source to hash-check the archived original HTTP experiment; resolve the dependency from the local installed node_modules instead of a recorded private absolute path. Renamed current_source hash result to recorded_source. Event replay and acceptance criteria unchanged."
+    }
+  },
+  "historical_http": {
+    "origin_run": "N1_run06 (2026-09-08 JST)",
+    "preserved_byte_for_byte": [
+      "inputs.json",
+      "results.json",
+      "summary.json"
+    ],
+    "archived_source_sha256": "daabebb8bd3d3e55a0ac17ffe230700694e5da7e35331477b87aec5af86525d5",
+    "original_manifest_sha256": "9e85ce44e9a6973bbfb065677dfc6ad468a13419723ff016b802c40846b88d53",
+    "manifest_change": "Replaced private absolute httpNodeFile with node_modules/@node-red/nodes/core/network/21-httprequest.js and added publication_note; all recorded hashes unchanged.",
+    "original_replay": "original_independent_replay.json is unchanged from the original independent replay report; independent_replay.json is the publication-time replay."
+  },
+  "third_party_code": "Node-RED and test-helper are pinned npm dependencies; node_modules is excluded. No vendored third-party implementation."
+}

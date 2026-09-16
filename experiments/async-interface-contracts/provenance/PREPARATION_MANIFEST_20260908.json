@@ -1,0 +1,36 @@
+{
+  "prepared_at": "2026-09-07T22:42:00.194882+00:00",
+  "published": false,
+  "files": {
+    "src/finite-state/experiment.py": {
+      "sha256": "266b8f1f7bd663e80f6d39bba51265488d1cc399cae837ff7dfafd9159267b86",
+      "unchanged_from_research_source": true
+    },
+    "src/interface-selection/experiment.py": {
+      "sha256": "c313dbefb2f38f359228ad3ddaf555ac2bc6dd0c7e5c66e6a88a07eaf7d60225",
+      "unchanged_from_research_source": true
+    },
+    "src/node-red-lab/http_experiment.cjs": {
+      "sha256": "9dafa1302fe4844407558d3b9aac8d9874f4266f1d82dd72bc65448673b4196f",
+      "unchanged_from_research_source": false,
+      "original_sha256": "daabebb8bd3d3e55a0ac17ffe230700694e5da7e35331477b87aec5af86525d5",
+      "change": "Added optional --input-id exact fixture selector for smoke/demo; algorithms and default full inputs unchanged."
+    },
+    "src/node-red-lab/replay_http.py": {
+      "sha256": "c8ced3b6e444404cc2c0ebc9c84517c935a34cd7aa59396fd9beb3a4d4799f4e",
+      "unchanged_from_research_source": true
+    },
+    "src/node-red-lab/package.json": {
+      "sha256": "97d40a4674bec196b219acc0a2924e98516d9f382952812d3a0658234d8a0105",
+      "unchanged_from_research_source": true
+    },
+    "src/node-red-lab/package-lock.json": {
+      "sha256": "a4d4a06a03e37bc5ccc3f15277f9ba45fc6448925a1d4f6384e1a3690a24e829",
+      "unchanged_from_research_source": true
+    },
+    "docs/completion-observation-scope.md": {
+      "sha256": "3f28cd5ae6c6d88b4eea5ec32dd6d02c7000f2ddae6d01c1078e25b000381405",
+      "unchanged_from_research_source": true
+    }
+  }
+}

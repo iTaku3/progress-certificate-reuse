@@ -1,0 +1,46 @@
+{
+  "scope": "Three-state explanation of why an empty exit set must not be omitted.\n\nFixed-policy finite graph; one GF justice assumption; no transfer or synthesis.\nThe negative control deliberately omits the internal exit-set obligations.\n",
+  "graph": {
+    "accepted": [
+      "completed",
+      "trapped"
+    ],
+    "completed": [
+      "completed"
+    ],
+    "trapped": [
+      "trapped"
+    ]
+  },
+  "colors": {
+    "accepted": 0,
+    "completed": 1,
+    "trapped": 0
+  },
+  "ports": [
+    "accepted",
+    "completed"
+  ],
+  "full_graph": {
+    "safe": true,
+    "fair_completion": true,
+    "nonconflicting": false
+  },
+  "with_exit_sets": {
+    "safe": true,
+    "fair_completion": true,
+    "nonconflicting": false
+  },
+  "without_exit_sets_negative_control": {
+    "safe": true,
+    "fair_completion": true,
+    "nonconflicting": true
+  },
+  "accepted_exit_sets": [
+    []
+  ],
+  "sha256": {
+    "graph.py": "0cc603c2350c1eff193f3694d55ac8aa1fe08ac3ef670a80cb1ab6e2cfc61cb7",
+    "exit_sets.py": "ee4fb356551e2f735132e1d67dbbbc25dea325f1d14fc8f4179c8e5707d9c859"
+  }
+}

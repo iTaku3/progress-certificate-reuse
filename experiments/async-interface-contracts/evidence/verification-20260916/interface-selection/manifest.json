@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-09-16T02:45:28.725915+00:00",
+  "python": "3.10.9",
+  "platform": "macOS-15.7.9-arm64-arm-64bit",
+  "source_sha256": "4401b9fcd99f7f79dcd7676cc9466a3c168bf3d8c31ebbe496ab1227b7dee406",
+  "input_sha256": "dbc979d021086eeb1def9ef707f0491062ae96c9af4b66f99d41364bb4a27d6e",
+  "semantics": "finite one-shot jobs; reliable chosen completion observations; independent finite unbounded durations; fairness abstracted by completion wait",
+  "finished_at": "2026-09-16T02:45:48.672861+00:00",
+  "source_unchanged": true,
+  "input_unchanged": true
+}

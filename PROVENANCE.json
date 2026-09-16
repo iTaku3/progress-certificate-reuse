@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-11",
+  "kind": "packaging of an existing preliminary prototype",
+  "algorithm_preservation": {
+    "src/progress_reuse/graph.py": {
+      "unchanged_functions": [
+        "Fragment",
+        "full_graph",
+        "full_oracle",
+        "local_summary",
+        "macro_graph",
+        "reach",
+        "summary_check",
+        "tarjan"
+      ],
+      "source_sha256": "12cf72b25c56c03a9f9acdfe80b9527b66ad3657a3b4b9b17a9d8a802a45bc3f"
+    },
+    "src/progress_reuse/composition.py": {
+      "unchanged_functions": [
+        "components",
+        "compose",
+        "minimize",
+        "reachable"
+      ],
+      "source_sha256": "0c664e441b0f55c373bf906ad54a2c6ad748bae15f6b1eaab970085150c01e29"
+    },
+    "experiments/validate_composition.py": {
+      "unchanged_functions": [
+        "canonical",
+        "merge",
+        "negative_controls",
+        "random_case",
+        "serializable_case",
+        "validate"
+      ],
+      "source_sha256": "07f0fbb7498cf304fcfb5faa1829e1f888287e3905196c8b9daacafdb492c809"
+    },
+    "experiments/validate_policy_search.py": {
+      "unchanged_functions": [
+        "check_case",
+        "combine_records",
+        "local_candidates",
+        "pair_key",
+        "random_game",
+        "record_search"
+      ],
+      "source_sha256": "c4d34fe546a0a5cf71778a9e48c5949747316ae125562491b4d766b2a2b50651"
+    }
+  },
+  "third_party_code_or_models_bundled": false,
+  "publication_packaging": {
+    "date": "2026-09-16",
+    "repository": "https://github.com/iTaku3/progress-certificate-reuse",
+    "scope": "Core preliminary checks with separate Workflow and HTTP companion experiments.",
+    "core_algorithm_changes": false,
+    "runner_changes": "reproduce.py now isolates unchanged core scripts, preserves archived results, supports --output-dir, and hashes only the core sources.",
+    "historical_runner_sha256": "79899572a104b2b0ea0f8193831457b4e8fdb6d6177651a83de4179f8f1d03ec",
+    "companion_provenance": [
+      "experiments/workflow/README.md",
+      "experiments/async-interface-contracts/README.md"
+    ]
+  }
+}

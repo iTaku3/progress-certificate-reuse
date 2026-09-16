@@ -1,0 +1,226 @@
+{
+  "time": "2026-09-10T13:03:42.353797",
+  "source_sha256": "4c7e69a25385ad63a7458a3f5b5c70c241bb8edbb79041dde22be9e3e025247d",
+  "configurations": [
+    {
+      "first_stage_jobs": 2,
+      "source_sha256": "acd10de9bbc20de23164cf2515943cd39b3e647a1387ba7dad5280fd185e795f",
+      "exports": {
+        "old": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n2/Workflow_derived.lts",
+            "OldEnvironmentAndController",
+            "n2/old.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 0.31025400000362424,
+          "header": "des(0,31,22)",
+          "sha256": "308354fdfcc4ebc9c6b6ee77d5d9d55542fb7c01b6c03b2e729ec8d96009a9c8"
+        },
+        "new": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n2/Workflow_derived.lts",
+            "NewEnvironmentAndController",
+            "n2/new.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 0.2411505829950329,
+          "header": "des(0,23,18)",
+          "sha256": "97f29cc352069db1b0f9e7733684c24ae47b615c8c24872efbb92e581269c3ee"
+        }
+      }
+    },
+    {
+      "first_stage_jobs": 3,
+      "source_sha256": "fec109f1a80dea30c71b24a74160110d69dcbc4b18f40c3e8941348cadd7aa3a",
+      "exports": {
+        "old": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n3/Workflow_derived.lts",
+            "OldEnvironmentAndController",
+            "n3/old.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 0.34007133299746783,
+          "header": "des(0,73,40)",
+          "sha256": "0160cb2f619868622c5d462fce235f25e8f840481f742d4db214ce5a35364d88"
+        },
+        "new": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n3/Workflow_derived.lts",
+            "NewEnvironmentAndController",
+            "n3/new.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 0.34362162499746773,
+          "header": "des(0,65,36)",
+          "sha256": "e0cecbd70afc76bd6d69e490d522794fc5c2dd18756eb98030dd3312cf02a7ab"
+        }
+      }
+    },
+    {
+      "first_stage_jobs": 4,
+      "source_sha256": "d91637ba2d87c815453fe95ea308f44cae15dbb8dc88d9d62b2e7b6add420a97",
+      "exports": {
+        "old": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n4/Workflow_derived.lts",
+            "OldEnvironmentAndController",
+            "n4/old.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 1.0401967090001563,
+          "header": "des(0,235,94)",
+          "sha256": "1dc5d3ef27dbf51dfbbbb2fbcb0cf8e2fddd89738683f56821853e5b34d16996"
+        },
+        "new": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n4/Workflow_derived.lts",
+            "NewEnvironmentAndController",
+            "n4/new.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 1.0488629579995177,
+          "header": "des(0,227,90)",
+          "sha256": "4c72d6c222ebd32740d6b54f6c833cf4d019375ebe70456e4976ca9cee10a5bc"
+        }
+      }
+    },
+    {
+      "first_stage_jobs": 5,
+      "source_sha256": "692647686e2fbbd39f335cdcc2a183e89184c933fac8d20d465ce944fdc82cef",
+      "exports": {
+        "old": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n5/Workflow_derived.lts",
+            "OldEnvironmentAndController",
+            "n5/old.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 9.321466458000941,
+          "header": "des(0,829,256)",
+          "sha256": "dd76f378b556a4f8a799c26f4798226c12573a16f043da966acbabf190e7e438"
+        },
+        "new": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n5/Workflow_derived.lts",
+            "NewEnvironmentAndController",
+            "n5/new.aut"
+          ],
+          "exit": 0,
+          "wall_seconds": 9.280601792001107,
+          "header": "des(0,821,252)",
+          "sha256": "d29c5fb7e4923e638c272c0ecfb99cd42d8a195889a5a041370098abf1a13ab4"
+        }
+      }
+    },
+    {
+      "first_stage_jobs": 6,
+      "source_sha256": "d50a4021ae4db445bcf9e0be6eaf1c7a58429f3e98be3a6078163b540ea272a8",
+      "exports": {
+        "old": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n6/Workflow_derived.lts",
+            "OldEnvironmentAndController",
+            "n6/old.aut"
+          ],
+          "exit": "timeout90",
+          "wall_seconds": 90.0125429999971
+        },
+        "new": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n6/Workflow_derived.lts",
+            "NewEnvironmentAndController",
+            "n6/new.aut"
+          ],
+          "exit": "timeout90",
+          "wall_seconds": 90.01331487500283
+        }
+      }
+    },
+    {
+      "first_stage_jobs": 7,
+      "source_sha256": "ec607b3a77404ce25fdf9e0d8db4cc8c0f2ac7621039a0a9999318906894c273",
+      "exports": {
+        "old": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n7/Workflow_derived.lts",
+            "OldEnvironmentAndController",
+            "n7/old.aut"
+          ],
+          "exit": "timeout90",
+          "wall_seconds": 90.01201637499616
+        },
+        "new": {
+          "command": [
+            "java",
+            "-Xmx2g",
+            "-cp",
+            "<user-supplied-mtsa.jar>:<compiled-helper>",
+            "CompilePublicModel",
+            "n7/Workflow_derived.lts",
+            "NewEnvironmentAndController",
+            "n7/new.aut"
+          ],
+          "exit": "timeout90",
+          "wall_seconds": 90.01183887499792
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "time": "2026-09-10T17:42:32.876791+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "seed": 20260910,
+  "counts": {
+    "record_equality_checks": 20000,
+    "hidden_ports": 30134,
+    "empty_signatures": 11809,
+    "start_state_checks": 20720,
+    "individual_guarantee_checks": 62160,
+    "truth_pattern_001": 2227,
+    "cases": 5000,
+    "justice_conditions_0": 1250,
+    "truth_pattern_100": 3189,
+    "justice_conditions_1": 1250,
+    "truth_pattern_110": 4541,
+    "justice_conditions_2": 1250,
+    "truth_pattern_000": 6954,
+    "justice_conditions_3": 1250,
+    "truth_pattern_111": 1020,
+    "truth_pattern_010": 876,
+    "truth_pattern_101": 1766,
+    "truth_pattern_011": 147,
+    "negative_control_trap_detected": 1,
+    "negative_control_new_entry_rejected": 2
+  },
+  "elapsed_seconds": 5.7377678339980775,
+  "source_sha256": {
+    "src/progress_reuse/graph.py": "0cc603c2350c1eff193f3694d55ac8aa1fe08ac3ef670a80cb1ab6e2cfc61cb7",
+    "src/progress_reuse/composition.py": "8538603c285b34df85d16fb430dbf821a629e5c1f51444675a8355edca36fc46",
+    "experiments/validate_composition.py": "08f8b99381d55b6c304de2b0421006a0939d51ef1502ca5baacfa998ada7223b"
+  },
+  "limits": [
+    "Finite fixed-policy graphs; memory and simultaneous behavior already expanded.",
+    "Cross-fragment edges are permitted only at typed recorded ports.",
+    "Conjunctions of 0-3 GF justice conditions; absorbing completion states.",
+    "No candidate-strategy search, assumption-changing migration, or measured synthesis advantage.",
+    "Random tests and direct-record checks are supporting evidence, not a general proof."
+  ]
+}

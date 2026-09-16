@@ -1,0 +1,57 @@
+{
+  "prepared_for_publication": "2026-09-16",
+  "source_model": {
+    "repository": "https://github.com/iTaku3/Fine-Grained-Dynamic-Controller-Update-via-On-the-Fly-Synthesis",
+    "commit": "cce6bf2204cda4396800217d23a9a57a5777aadf",
+    "path": "Experiment/Models/Workflow_FG.lts",
+    "url": "https://raw.githubusercontent.com/iTaku3/Fine-Grained-Dynamic-Controller-Update-via-On-the-Fly-Synthesis/cce6bf2204cda4396800217d23a9a57a5777aadf/Experiment/Models/Workflow_FG.lts",
+    "sha256": "4c7e69a25385ad63a7458a3f5b5c70c241bb8edbb79041dde22be9e3e025247d",
+    "redistributed": false
+  },
+  "historical_mtsa_jar_sha256": "f805413e8665c53bdc210a4092aea5bf7ca1055ee973cd1ce2535491cb04f3e5",
+  "historical_source_sha256": {
+    "generator": "575d3bc36b4322ab0e61d77b5af8413d811482b6fb720d1ee1eab8742ed40a11",
+    "measurement": "cbf74ca35afd9ec2187138d54fa244bdc489310c3448d7baed8e23b602f027b3",
+    "adapter": "f43ce1d66896faaf41cf70cd7a3e4f30b4c5de91b0ed0b5ac2f867905a4cba50",
+    "adapter_helpers": "07f0fbb7498cf304fcfb5faa1829e1f888287e3905196c8b9daacafdb492c809",
+    "compiler_helper": "0badeb8d722cf41ed3dca21bf65b7d31fc02f2820cd51bbb6e13dc9ae8851fe5",
+    "extended_runner": "7f895012b1c8b839637b9c018fe0ccd044fec68704a13e0c6fdcf2851948db19"
+  },
+  "historical_results": {
+    "historical/n2-record-measurement.json": {
+      "original_sha256": "583d2faa13d687331d82d61914375f9ff66c2a344c213a28bdb71a827f9ca2f6",
+      "transformation": "Unchanged bytes; original measurement, not a new run."
+    },
+    "historical/n3-record-measurement.json": {
+      "original_sha256": "287fee4a7fc447ca2fac2c90978fa9bfbc3c19959e5660527109cb9d2ddab653",
+      "transformation": "Unchanged bytes; original measurement, not a new run."
+    },
+    "historical/n4-record-measurement.json": {
+      "original_sha256": "a0c7c7e135dbec0d914c4b33fd46a6fb7cacbc13468f993beb53b3788a9a709e",
+      "transformation": "Unchanged bytes; original measurement, not a new run."
+    },
+    "historical/n5-record-measurement.json": {
+      "original_sha256": "1702152f1f2ce551b03d1cedcc5b9a25ee5d97a476c7b2bf39d39fb447d31e10",
+      "transformation": "Unchanged bytes; original measurement, not a new run."
+    },
+    "historical/n6-record-measurement.json": {
+      "original_sha256": "dea4feb538ade6dab22dcd1e771dba4d33777a7c4a6db0ddc20f86f7ba3c155d",
+      "transformation": "Unchanged bytes; original measurement, not a new run."
+    },
+    "historical/2026-09-10-native-exports.json": {
+      "original_sha256": "6bee4d97e6cdc512a9939d98f8e7d77775cce23698b738ef522ffd7248565b1b",
+      "transformation": "Only command arrays replaced with portable placeholders; timings, statuses, model/output hashes unchanged. The original 2026-09-11 command also used macOS /usr/bin/time -l."
+    },
+    "historical/2026-09-11-native-exports.json": {
+      "original_sha256": "4ace55e7ddbfb8abb488628eb449014f8046167b03feab80176ecda5966c16fe",
+      "transformation": "Only command arrays replaced with portable placeholders; timings, statuses, model/output hashes unchanged. The original 2026-09-11 command also used macOS /usr/bin/time -l."
+    }
+  },
+  "publication_changes": [
+    "Portable paths and command-line interfaces replace machine-specific paths.",
+    "Record generation, checking, timing-loop and Workflow transformation algorithms retained.",
+    "Adapter helpers import the repository core instead of loading private source files.",
+    "Third-party model, derived models, AUT exports, MTSA binary and verbose logs are not distributed.",
+    "Original timings remain historical evidence; new measurements go to a new output directory."
+  ]
+}

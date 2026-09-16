@@ -1,0 +1,1325 @@
+[
+  {
+    "id": "clique2_end_200_0",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 0,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "clique2_end_200_1",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 1,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "clique2_end_200_2",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 2,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "clique2_accept_202_0",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 0,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "clique2_accept_202_1",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 1,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "clique2_accept_202_2",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 2,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "clique2_client_timeout_0",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 0,
+    "requestTimeout": 65,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "clique2_client_timeout_1",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 1,
+    "requestTimeout": 75,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "clique2_client_timeout_2",
+    "graph": {
+      "name": "clique2",
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 2,
+    "requestTimeout": 85,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_end_200_0",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 0,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_end_200_1",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 1,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_end_200_2",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 2,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_accept_202_0",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 0,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_accept_202_1",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 1,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_accept_202_2",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 2,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_client_timeout_0",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 0,
+    "requestTimeout": 65,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_client_timeout_1",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 1,
+    "requestTimeout": 75,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "path3_client_timeout_2",
+    "graph": {
+      "name": "path3",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 2,
+    "requestTimeout": 85,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_end_200_0",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "end_200",
+    "seed": 0,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_end_200_1",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "end_200",
+    "seed": 1,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_end_200_2",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "end_200",
+    "seed": 2,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_accept_202_0",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "accept_202",
+    "seed": 0,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_accept_202_1",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "accept_202",
+    "seed": 1,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_accept_202_2",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "accept_202",
+    "seed": 2,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_client_timeout_0",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "client_timeout",
+    "seed": 0,
+    "requestTimeout": 65,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_client_timeout_1",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "client_timeout",
+    "seed": 1,
+    "requestTimeout": 75,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "empty3_client_timeout_2",
+    "graph": {
+      "name": "empty3",
+      "n": 3,
+      "edges": []
+    },
+    "mode": "client_timeout",
+    "seed": 2,
+    "requestTimeout": 85,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_end_200_0",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 0,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      },
+      {
+        "id": 3,
+        "startDelay": 5,
+        "duration": 240
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_end_200_1",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 1,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      },
+      {
+        "id": 3,
+        "startDelay": 6,
+        "duration": 265
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_end_200_2",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "end_200",
+    "seed": 2,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      },
+      {
+        "id": 3,
+        "startDelay": 7,
+        "duration": 290
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_accept_202_0",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 0,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      },
+      {
+        "id": 3,
+        "startDelay": 5,
+        "duration": 240
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_accept_202_1",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 1,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      },
+      {
+        "id": 3,
+        "startDelay": 6,
+        "duration": 265
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_accept_202_2",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "accept_202",
+    "seed": 2,
+    "requestTimeout": 2000,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      },
+      {
+        "id": 3,
+        "startDelay": 7,
+        "duration": 290
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_client_timeout_0",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 0,
+    "requestTimeout": 65,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 5,
+        "duration": 180
+      },
+      {
+        "id": 1,
+        "startDelay": 6,
+        "duration": 200
+      },
+      {
+        "id": 2,
+        "startDelay": 7,
+        "duration": 220
+      },
+      {
+        "id": 3,
+        "startDelay": 5,
+        "duration": 240
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_client_timeout_1",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 1,
+    "requestTimeout": 75,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 6,
+        "duration": 205
+      },
+      {
+        "id": 1,
+        "startDelay": 7,
+        "duration": 225
+      },
+      {
+        "id": 2,
+        "startDelay": 5,
+        "duration": 245
+      },
+      {
+        "id": 3,
+        "startDelay": 6,
+        "duration": 265
+      }
+    ],
+    "pollMs": 30
+  },
+  {
+    "id": "cycle4_client_timeout_2",
+    "graph": {
+      "name": "cycle4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    },
+    "mode": "client_timeout",
+    "seed": 2,
+    "requestTimeout": 85,
+    "jobs": [
+      {
+        "id": 0,
+        "startDelay": 7,
+        "duration": 230
+      },
+      {
+        "id": 1,
+        "startDelay": 5,
+        "duration": 250
+      },
+      {
+        "id": 2,
+        "startDelay": 6,
+        "duration": 270
+      },
+      {
+        "id": 3,
+        "startDelay": 7,
+        "duration": 290
+      }
+    ],
+    "pollMs": 30
+  }
+]

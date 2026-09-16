@@ -1,0 +1,1168 @@
+[
+  {
+    "input": {
+      "id": "path3_accept_202_1",
+      "graph": {
+        "name": "path3",
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "mode": "accept_202",
+      "seed": 1,
+      "requestTimeout": 2000,
+      "jobs": [
+        {
+          "id": 0,
+          "startDelay": 6,
+          "duration": 205
+        },
+        {
+          "id": 1,
+          "startDelay": 7,
+          "duration": 225
+        },
+        {
+          "id": 2,
+          "startDelay": 5,
+          "duration": 245
+        }
+      ],
+      "pollMs": 30
+    },
+    "result": {
+      "input": "path3_accept_202_1",
+      "policy": "release_on_terminal",
+      "status": "complete",
+      "unsafe": true,
+      "maxActive": 3,
+      "dispatched": 3,
+      "ended": 3,
+      "waiting": 0,
+      "heldAtEnd": 0,
+      "httpErrors": 0,
+      "trace": [
+        {
+          "index": 0,
+          "event": "dispatch",
+          "id": 0,
+          "elapsedMs": 1.247334
+        },
+        {
+          "index": 1,
+          "event": "dispatch",
+          "id": 2,
+          "elapsedMs": 1.277417
+        },
+        {
+          "index": 2,
+          "event": "server_accept",
+          "id": 0,
+          "elapsedMs": 2.31725
+        },
+        {
+          "index": 3,
+          "event": "server_accept",
+          "id": 2,
+          "elapsedMs": 2.585917
+        },
+        {
+          "index": 4,
+          "event": "effect_start",
+          "id": 2,
+          "elapsedMs": 8.889834
+        },
+        {
+          "index": 5,
+          "event": "effect_start",
+          "id": 0,
+          "elapsedMs": 8.905167
+        },
+        {
+          "index": 6,
+          "event": "server_response",
+          "id": 0,
+          "elapsedMs": 14.280084,
+          "status": 202
+        },
+        {
+          "index": 7,
+          "event": "server_connection_close",
+          "id": 0,
+          "elapsedMs": 14.299,
+          "ended": false
+        },
+        {
+          "index": 8,
+          "event": "server_response",
+          "id": 2,
+          "elapsedMs": 14.329667,
+          "status": 202
+        },
+        {
+          "index": 9,
+          "event": "server_connection_close",
+          "id": 2,
+          "elapsedMs": 14.374167,
+          "ended": false
+        },
+        {
+          "index": 10,
+          "event": "http_terminal",
+          "id": 0,
+          "elapsedMs": 14.892417,
+          "status": 202
+        },
+        {
+          "index": 11,
+          "event": "release",
+          "id": 0,
+          "elapsedMs": 14.893834,
+          "basis": "http_terminal"
+        },
+        {
+          "index": 12,
+          "event": "http_terminal",
+          "id": 2,
+          "elapsedMs": 15.072959,
+          "status": 202
+        },
+        {
+          "index": 13,
+          "event": "release",
+          "id": 2,
+          "elapsedMs": 15.074292,
+          "basis": "http_terminal"
+        },
+        {
+          "index": 14,
+          "event": "dispatch",
+          "id": 1,
+          "elapsedMs": 15.075959
+        },
+        {
+          "index": 15,
+          "event": "server_accept",
+          "id": 1,
+          "elapsedMs": 15.692375
+        },
+        {
+          "index": 16,
+          "event": "effect_start",
+          "id": 1,
+          "elapsedMs": 24.489584
+        },
+        {
+          "index": 17,
+          "event": "server_response",
+          "id": 1,
+          "elapsedMs": 28.371042,
+          "status": 202
+        },
+        {
+          "index": 18,
+          "event": "server_connection_close",
+          "id": 1,
+          "elapsedMs": 28.394209,
+          "ended": false
+        },
+        {
+          "index": 19,
+          "event": "http_terminal",
+          "id": 1,
+          "elapsedMs": 28.766834,
+          "status": 202
+        },
+        {
+          "index": 20,
+          "event": "release",
+          "id": 1,
+          "elapsedMs": 28.768459,
+          "basis": "http_terminal"
+        },
+        {
+          "index": 21,
+          "event": "effect_end",
+          "id": 0,
+          "elapsedMs": 216.843042
+        },
+        {
+          "index": 22,
+          "event": "effect_end",
+          "id": 1,
+          "elapsedMs": 250.909084
+        },
+        {
+          "index": 23,
+          "event": "effect_end",
+          "id": 2,
+          "elapsedMs": 254.717792
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "id": "path3_accept_202_1",
+      "graph": {
+        "name": "path3",
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "mode": "accept_202",
+      "seed": 1,
+      "requestTimeout": 2000,
+      "jobs": [
+        {
+          "id": 0,
+          "startDelay": 6,
+          "duration": 205
+        },
+        {
+          "id": 1,
+          "startDelay": 7,
+          "duration": 225
+        },
+        {
+          "id": 2,
+          "startDelay": 5,
+          "duration": 245
+        }
+      ],
+      "pollMs": 30
+    },
+    "result": {
+      "input": "path3_accept_202_1",
+      "policy": "confirm_status",
+      "status": "complete",
+      "unsafe": false,
+      "maxActive": 2,
+      "dispatched": 3,
+      "ended": 3,
+      "waiting": 0,
+      "heldAtEnd": 0,
+      "httpErrors": 0,
+      "trace": [
+        {
+          "index": 0,
+          "event": "dispatch",
+          "id": 0,
+          "elapsedMs": 1.398916
+        },
+        {
+          "index": 1,
+          "event": "dispatch",
+          "id": 2,
+          "elapsedMs": 1.441291
+        },
+        {
+          "index": 2,
+          "event": "server_accept",
+          "id": 0,
+          "elapsedMs": 2.579541
+        },
+        {
+          "index": 3,
+          "event": "server_accept",
+          "id": 2,
+          "elapsedMs": 2.853916
+        },
+        {
+          "index": 4,
+          "event": "effect_start",
+          "id": 0,
+          "elapsedMs": 9.151125
+        },
+        {
+          "index": 5,
+          "event": "effect_start",
+          "id": 2,
+          "elapsedMs": 9.171916
+        },
+        {
+          "index": 6,
+          "event": "server_response",
+          "id": 0,
+          "elapsedMs": 15.572208,
+          "status": 202
+        },
+        {
+          "index": 7,
+          "event": "server_connection_close",
+          "id": 0,
+          "elapsedMs": 15.589125,
+          "ended": false
+        },
+        {
+          "index": 8,
+          "event": "server_response",
+          "id": 2,
+          "elapsedMs": 15.625625,
+          "status": 202
+        },
+        {
+          "index": 9,
+          "event": "server_connection_close",
+          "id": 2,
+          "elapsedMs": 15.634625,
+          "ended": false
+        },
+        {
+          "index": 10,
+          "event": "http_terminal",
+          "id": 0,
+          "elapsedMs": 16.021333,
+          "status": 202
+        },
+        {
+          "index": 11,
+          "event": "http_terminal",
+          "id": 2,
+          "elapsedMs": 16.189458,
+          "status": 202
+        },
+        {
+          "index": 12,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 34.361125,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 13,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 34.507583,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 14,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 65.6225,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 15,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 65.757958,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 16,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 97.816916,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 17,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 97.948958,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 18,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 131.37425,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 19,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 131.5585,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 20,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 164.801583,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 21,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 164.992291,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 22,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 198.146333,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 23,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 198.293375,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 24,
+          "event": "effect_end",
+          "id": 0,
+          "elapsedMs": 216.348708
+        },
+        {
+          "index": 25,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 231.494291,
+          "status": 200,
+          "state": "done"
+        },
+        {
+          "index": 26,
+          "event": "release",
+          "id": 0,
+          "elapsedMs": 231.497125,
+          "basis": "status_done"
+        },
+        {
+          "index": 27,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 231.635,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 28,
+          "event": "effect_end",
+          "id": 2,
+          "elapsedMs": 255.808541
+        },
+        {
+          "index": 29,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 263.197541,
+          "status": 200,
+          "state": "done"
+        },
+        {
+          "index": 30,
+          "event": "release",
+          "id": 2,
+          "elapsedMs": 263.19925,
+          "basis": "status_done"
+        },
+        {
+          "index": 31,
+          "event": "dispatch",
+          "id": 1,
+          "elapsedMs": 263.201125
+        },
+        {
+          "index": 32,
+          "event": "server_accept",
+          "id": 1,
+          "elapsedMs": 263.622458
+        },
+        {
+          "index": 33,
+          "event": "effect_start",
+          "id": 1,
+          "elapsedMs": 272.416958
+        },
+        {
+          "index": 34,
+          "event": "server_response",
+          "id": 1,
+          "elapsedMs": 276.307708,
+          "status": 202
+        },
+        {
+          "index": 35,
+          "event": "server_connection_close",
+          "id": 1,
+          "elapsedMs": 276.331875,
+          "ended": false
+        },
+        {
+          "index": 36,
+          "event": "http_terminal",
+          "id": 1,
+          "elapsedMs": 276.847041,
+          "status": 202
+        },
+        {
+          "index": 37,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 294.786166,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 38,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 327.962833,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 39,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 361.38025,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 40,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 394.675333,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 41,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 427.899333,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 42,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 461.298416,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 43,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 495.137083,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 44,
+          "event": "effect_end",
+          "id": 1,
+          "elapsedMs": 497.6845
+        },
+        {
+          "index": 45,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 528.789125,
+          "status": 200,
+          "state": "done"
+        },
+        {
+          "index": 46,
+          "event": "release",
+          "id": 1,
+          "elapsedMs": 528.792291,
+          "basis": "status_done"
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "id": "path3_client_timeout_1",
+      "graph": {
+        "name": "path3",
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "mode": "client_timeout",
+      "seed": 1,
+      "requestTimeout": 75,
+      "jobs": [
+        {
+          "id": 0,
+          "startDelay": 6,
+          "duration": 205
+        },
+        {
+          "id": 1,
+          "startDelay": 7,
+          "duration": 225
+        },
+        {
+          "id": 2,
+          "startDelay": 5,
+          "duration": 245
+        }
+      ],
+      "pollMs": 30
+    },
+    "result": {
+      "input": "path3_client_timeout_1",
+      "policy": "release_on_terminal",
+      "status": "complete",
+      "unsafe": true,
+      "maxActive": 3,
+      "dispatched": 3,
+      "ended": 3,
+      "waiting": 0,
+      "heldAtEnd": 0,
+      "httpErrors": 3,
+      "trace": [
+        {
+          "index": 0,
+          "event": "dispatch",
+          "id": 0,
+          "elapsedMs": 1.267417
+        },
+        {
+          "index": 1,
+          "event": "dispatch",
+          "id": 2,
+          "elapsedMs": 1.300292
+        },
+        {
+          "index": 2,
+          "event": "server_accept",
+          "id": 0,
+          "elapsedMs": 2.409625
+        },
+        {
+          "index": 3,
+          "event": "server_accept",
+          "id": 2,
+          "elapsedMs": 2.702958
+        },
+        {
+          "index": 4,
+          "event": "effect_start",
+          "id": 2,
+          "elapsedMs": 8.999083
+        },
+        {
+          "index": 5,
+          "event": "effect_start",
+          "id": 0,
+          "elapsedMs": 9.017375
+        },
+        {
+          "index": 6,
+          "event": "http_terminal",
+          "id": 0,
+          "elapsedMs": 79.846125,
+          "status": "ETIMEDOUT"
+        },
+        {
+          "index": 7,
+          "event": "release",
+          "id": 0,
+          "elapsedMs": 79.852667,
+          "basis": "http_terminal"
+        },
+        {
+          "index": 8,
+          "event": "http_terminal",
+          "id": 2,
+          "elapsedMs": 79.881667,
+          "status": "ETIMEDOUT"
+        },
+        {
+          "index": 9,
+          "event": "release",
+          "id": 2,
+          "elapsedMs": 79.8825,
+          "basis": "http_terminal"
+        },
+        {
+          "index": 10,
+          "event": "dispatch",
+          "id": 1,
+          "elapsedMs": 79.883792
+        },
+        {
+          "index": 11,
+          "event": "server_connection_close",
+          "id": 2,
+          "elapsedMs": 79.940833,
+          "ended": false
+        },
+        {
+          "index": 12,
+          "event": "server_connection_close",
+          "id": 0,
+          "elapsedMs": 79.948042,
+          "ended": false
+        },
+        {
+          "index": 13,
+          "event": "server_accept",
+          "id": 1,
+          "elapsedMs": 80.765
+        },
+        {
+          "index": 14,
+          "event": "effect_start",
+          "id": 1,
+          "elapsedMs": 89.565958
+        },
+        {
+          "index": 15,
+          "event": "http_terminal",
+          "id": 1,
+          "elapsedMs": 159.574167,
+          "status": "ETIMEDOUT"
+        },
+        {
+          "index": 16,
+          "event": "release",
+          "id": 1,
+          "elapsedMs": 159.577792,
+          "basis": "http_terminal"
+        },
+        {
+          "index": 17,
+          "event": "server_connection_close",
+          "id": 1,
+          "elapsedMs": 159.609875,
+          "ended": false
+        },
+        {
+          "index": 18,
+          "event": "effect_end",
+          "id": 0,
+          "elapsedMs": 215.721
+        },
+        {
+          "index": 19,
+          "event": "effect_end",
+          "id": 2,
+          "elapsedMs": 255.928833
+        },
+        {
+          "index": 20,
+          "event": "effect_end",
+          "id": 1,
+          "elapsedMs": 317.004583
+        }
+      ]
+    }
+  },
+  {
+    "input": {
+      "id": "path3_client_timeout_1",
+      "graph": {
+        "name": "path3",
+        "n": 3,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "mode": "client_timeout",
+      "seed": 1,
+      "requestTimeout": 75,
+      "jobs": [
+        {
+          "id": 0,
+          "startDelay": 6,
+          "duration": 205
+        },
+        {
+          "id": 1,
+          "startDelay": 7,
+          "duration": 225
+        },
+        {
+          "id": 2,
+          "startDelay": 5,
+          "duration": 245
+        }
+      ],
+      "pollMs": 30
+    },
+    "result": {
+      "input": "path3_client_timeout_1",
+      "policy": "confirm_status",
+      "status": "complete",
+      "unsafe": false,
+      "maxActive": 2,
+      "dispatched": 3,
+      "ended": 3,
+      "waiting": 0,
+      "heldAtEnd": 0,
+      "httpErrors": 3,
+      "trace": [
+        {
+          "index": 0,
+          "event": "dispatch",
+          "id": 0,
+          "elapsedMs": 1.317875
+        },
+        {
+          "index": 1,
+          "event": "dispatch",
+          "id": 2,
+          "elapsedMs": 1.359666
+        },
+        {
+          "index": 2,
+          "event": "server_accept",
+          "id": 0,
+          "elapsedMs": 2.664666
+        },
+        {
+          "index": 3,
+          "event": "server_accept",
+          "id": 2,
+          "elapsedMs": 2.900583
+        },
+        {
+          "index": 4,
+          "event": "effect_start",
+          "id": 2,
+          "elapsedMs": 9.2045
+        },
+        {
+          "index": 5,
+          "event": "effect_start",
+          "id": 0,
+          "elapsedMs": 9.241875
+        },
+        {
+          "index": 6,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 35.285416,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 7,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 35.437166,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 8,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 67.77975,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 9,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 67.930833,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 10,
+          "event": "http_terminal",
+          "id": 0,
+          "elapsedMs": 80.919125,
+          "status": "ETIMEDOUT"
+        },
+        {
+          "index": 11,
+          "event": "http_terminal",
+          "id": 2,
+          "elapsedMs": 80.943583,
+          "status": "ETIMEDOUT"
+        },
+        {
+          "index": 12,
+          "event": "server_connection_close",
+          "id": 2,
+          "elapsedMs": 80.96975,
+          "ended": false
+        },
+        {
+          "index": 13,
+          "event": "server_connection_close",
+          "id": 0,
+          "elapsedMs": 80.976416,
+          "ended": false
+        },
+        {
+          "index": 14,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 101.280458,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 15,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 101.430541,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 16,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 132.709041,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 17,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 133.013791,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 18,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 166.298291,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 19,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 166.443291,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 20,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 197.659166,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 21,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 198.066916,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 22,
+          "event": "effect_end",
+          "id": 0,
+          "elapsedMs": 215.359
+        },
+        {
+          "index": 23,
+          "event": "status_observed",
+          "id": 0,
+          "elapsedMs": 232.19575,
+          "status": 200,
+          "state": "done"
+        },
+        {
+          "index": 24,
+          "event": "release",
+          "id": 0,
+          "elapsedMs": 232.199166,
+          "basis": "status_done"
+        },
+        {
+          "index": 25,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 232.446041,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 26,
+          "event": "effect_end",
+          "id": 2,
+          "elapsedMs": 253.616666
+        },
+        {
+          "index": 27,
+          "event": "status_observed",
+          "id": 2,
+          "elapsedMs": 264.3995,
+          "status": 200,
+          "state": "done"
+        },
+        {
+          "index": 28,
+          "event": "release",
+          "id": 2,
+          "elapsedMs": 264.402208,
+          "basis": "status_done"
+        },
+        {
+          "index": 29,
+          "event": "dispatch",
+          "id": 1,
+          "elapsedMs": 264.404833
+        },
+        {
+          "index": 30,
+          "event": "server_accept",
+          "id": 1,
+          "elapsedMs": 264.865458
+        },
+        {
+          "index": 31,
+          "event": "effect_start",
+          "id": 1,
+          "elapsedMs": 273.660166
+        },
+        {
+          "index": 32,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 297.856208,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 33,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 330.066666,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 34,
+          "event": "http_terminal",
+          "id": 1,
+          "elapsedMs": 343.92125,
+          "status": "ETIMEDOUT"
+        },
+        {
+          "index": 35,
+          "event": "server_connection_close",
+          "id": 1,
+          "elapsedMs": 343.95775,
+          "ended": false
+        },
+        {
+          "index": 36,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 363.502208,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 37,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 396.724958,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 38,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 429.945875,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 39,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 463.407333,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 40,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 495.614125,
+          "status": 200,
+          "state": "running"
+        },
+        {
+          "index": 41,
+          "event": "effect_end",
+          "id": 1,
+          "elapsedMs": 499.416416
+        },
+        {
+          "index": 42,
+          "event": "status_observed",
+          "id": 1,
+          "elapsedMs": 528.608333,
+          "status": 200,
+          "state": "done"
+        },
+        {
+          "index": 43,
+          "event": "release",
+          "id": 1,
+          "elapsedMs": 528.611333,
+          "basis": "status_done"
+        }
+      ]
+    }
+  }
+]
